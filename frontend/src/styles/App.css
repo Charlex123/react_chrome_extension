@@ -1,0 +1,135 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap");
+
+#root {
+  height: 100%;margin: 0;
+}
+.App {
+  text-align: center;min-width: 450px;width: 100%;height: 100%;
+}
+.table_ {
+  font-family: "Montserrat";color: #343434;
+}
+.table_ td {
+  padding: 5px;text-align: left;font-size: 14px;font-weight: 600;color: #174dd3 !important;
+}
+.uemail {
+  font-family: "Montserrat";
+}
+.sidebar_ ul li {
+  font-family: "Montserrat";margin: 20px 0 20px 0;color: #444446;font-weight: 600;font-size: 14px;padding: 5px 5px 5px 5px;
+  list-style: none;cursor: pointer;text-decoration: underline;background-color: #f1f6f7;
+}
+.signin_btn {
+  width: auto;
+  margin: 4rem auto 2rem auto !important;
+}
+.loginmain {
+  margin: 0 auto 0 auto;padding: 30px 10px 10px 10px;position: relative;overflow-y: hidden;
+}
+.loginmain h1 {
+  margin-left: 2rem !important;
+}
+.loginmain h4 {
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+  margin-top: 2rem;color: #752525;
+}
+.loginmain ul {
+  margin: 2rem 0;
+}
+.loginmain ul li {
+  margin: .8rem 0;text-align: left;font-family: "Montserrat";color: #14161b;font-weight: 600;
+  list-style: none;font-size: 18px;
+}
+.loginmain ul li .fa-check-circ {
+  color: red;
+}
+.overlay_d {
+  position: absolute;background-image: url("../assets/images/emailbg.jpg");background-position: center;background-size: cover;top: 0;bottom: 0;left: 0;right: 0;opacity: .1;z-index: 1;
+}
+.c_content {
+  z-index: 9;margin: auto;position: relative;padding: 20px;
+}
+.signin_btn button {
+  background-color: #fa3535;border: none;padding: 5px 5px 5px 5px;cursor: pointer;
+  color: white;font-weight: 600;font-family: "Poppins";font-size: 14px;border-radius: 4px;
+}
+.signin_btn a {
+  background-color: #fa3535;border: none;padding: 5px 5px 5px 5px;cursor: pointer;
+  color: white;font-weight: 600;font-family: "Poppins";font-size: 14px;border-radius: 4px;
+}
+.google-signin-icon {
+  color: rgb(11, 105, 212);padding-right: 5px;
+}
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+.gmail_redirect {
+  margin: 2rem auto;font-family: "Poppins";
+}
+.gmail_redirect a {
+  font-size: 16px;font-weight: 600;color: red;
+}
+.dash_main {
+  margin: 5rem auto;
+}
+.dash_main h1,.loginmain h1 {
+  font-family: "Poppins";font-size: 20px;
+}
+.dash_main h2, .loginmain h2 {
+  font-family: "Roboto";margin-top: 20px;
+}
+.loginmain h2 {
+  text-transform: capitalize;
+}
+.dash_main p {
+  font-family: "Montserrat";margin: 10px auto;padding: 10px 20px 0 20px;line-height: 20px;
+}
+.no-campaign {
+  font-family: "Poppins";font-weight: 600;
+}
+.footer {
+  background-color: #000000;color: #ffffff !important;font-family: "Montserrat",sans-serif;margin: 0;padding: 5rem auto;
+  text-align: center;
+}
+.footer div {
+  padding: 5rem auto 5rem auto;
+}
+.footer .footam {
+  color: #ffffff !important;text-align: center;padding: 5rem auto 5rem auto !important;
+}
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+@media (max-width: 991) {
+  .c_content {
+    width: 100%;
+  }
+}
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
